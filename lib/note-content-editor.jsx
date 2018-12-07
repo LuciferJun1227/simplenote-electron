@@ -292,8 +292,6 @@ export default class NoteContentEditor extends Component {
         spellCheck={this.props.spellCheckEnabled}
         stripPastedStyles
         onChange={this.handleEditorStateChange}
-        onCopy={this.stripFormattingFromSelectedText}
-        onCut={this.stripFormattingFromSelectedText}
         editorState={this.state.editorState}
         onTab={this.onTab}
         handleReturn={this.handleReturn}
